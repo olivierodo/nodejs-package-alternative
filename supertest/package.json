@@ -1,0 +1,26 @@
+{
+  "name": "supertest-alternative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.test.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "extensionsToTreatAsEsm": [".jsx"],
+    "transform": {}
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "jest": "^27.2.4",
+    "node-fetch": "^3.0.0",
+    "supertest": "^6.1.6"
+  }
+}
